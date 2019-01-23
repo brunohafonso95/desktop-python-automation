@@ -1,0 +1,71 @@
+[
+{
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "features/Navegacao.feature:3",
+      "name": "Navegacao para a pagina de projetos",
+      "status": "failed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "features/Navegacao.feature:4",
+          "match": {
+            "arguments": [],
+            "location": "steps/NavegacaoSteps.py:1"
+          },
+          "name": "Acessar pagina inicial",
+          "result": {
+            "duration": 0.0,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "When",
+          "location": "features/Navegacao.feature:5",
+          "match": {
+            "arguments": [],
+            "location": "steps/NavegacaoSteps.py:6"
+          },
+          "name": "Clicar no icone da pagina de projetos",
+          "result": {
+            "duration": 27.67307710647583,
+            "error_message": [
+              "Traceback (most recent call last):",
+              "  File \"C:\\Users\\bhenriquea\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\Pyautomators\\BDT\\model.py\", line 1329, in run",
+              "    match.run(runner.context)",
+              "  File \"C:\\Users\\bhenriquea\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\Pyautomators\\BDT\\matchers.py\", line 98, in run",
+              "    self.func(context, *args, **kwargs)",
+              "  File \"steps\\NavegacaoSteps.py\", line 8, in step_impl",
+              "    context.homePage.clicar_item_menu()",
+              "  File \"C:\\Users\\bhenriquea\\poc_itau\\pages\\pages\\HomePage.py\", line 6, in clicar_item_menu",
+              "    self.app.elemento_list('PROJECTS', 'name', 0).click()",
+              "  File \"C:\\Users\\bhenriquea\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\Pyautomators\\desk.py\", line 149, in elemento_list",
+              "    element=elements[indice_lista]",
+              "IndexError: list index out of range"
+            ],
+            "status": "failed"
+          },
+          "step_type": "when"
+        },
+        {
+          "keyword": "Then",
+          "location": "features/Navegacao.feature:6",
+          "name": "A pagina de projeto abre",
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "features/Navegacao.feature:2",
+  "name": "Navegacao entre paginas",
+  "status": "failed",
+  "tags": [
+    "desktop"
+  ]
+}
+]

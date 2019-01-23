@@ -1,0 +1,29 @@
+<testsuite errors="1" failures="0" hostname="bhenriqueapw1001" name="features.Navegacao.Navegacao entre paginas" skipped="0" tests="1" time="27.673077" timestamp="2019-01-23T15:53:54.348793"><testcase classname="features.Navegacao.Navegacao entre paginas" name="Navegacao para a pagina de projetos" status="failed" time="27.673077"><error message="list index out of range" type="IndexError">
+<![CDATA[
+Failing step: When Clicar no icone da pagina de projetos ... failed in 27.673s
+Location: features/Navegacao.feature:5
+Traceback (most recent call last):
+  File "C:\Users\bhenriquea\AppData\Local\Programs\Python\Python36-32\lib\site-packages\Pyautomators\BDT\model.py", line 1329, in run
+    match.run(runner.context)
+  File "C:\Users\bhenriquea\AppData\Local\Programs\Python\Python36-32\lib\site-packages\Pyautomators\BDT\matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "steps\NavegacaoSteps.py", line 8, in step_impl
+    context.homePage.clicar_item_menu()
+  File "C:\Users\bhenriquea\poc_itau\pages\pages\HomePage.py", line 6, in clicar_item_menu
+    self.app.elemento_list('PROJECTS', 'name', 0).click()
+  File "C:\Users\bhenriquea\AppData\Local\Programs\Python\Python36-32\lib\site-packages\Pyautomators\desk.py", line 149, in elemento_list
+    element=elements[indice_lista]
+IndexError: list index out of range
+]]>
+</error><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Navegacao para a pagina de projetos
+    Given Acessar pagina inicial ... passed in 0.000s
+    When Clicar no icone da pagina de projetos ... failed in 27.673s
+    Then A pagina de projeto abre ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,7 @@
+  Teste: 
+    Tipo: Desktop
+    Name: teste
+    Saida: test.json
+    Tags: 
+      - desktop
+    Args: {}
