@@ -1,0 +1,13 @@
+@given('Acessar pagina inicial')
+  Function: step_impl()
+  Location: steps/NavegacaoSteps.py:1
+
+@when('Clicar no icone da pagina de projetos')
+  Function: step_impl()
+  Location: steps/NavegacaoSteps.py:6
+
+@then('A pagina de projeto abre')
+  Function: step_impl()
+  Location: steps/NavegacaoSteps.py:11
+
+

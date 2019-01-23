@@ -1,0 +1,5 @@
+23/01/2019 08:10:26 PM ...Scenario:Navegacao para a pagina de projetos, before:...Sucess!
+23/01/2019 08:10:26 PM ...Step:   Given:Acessar pagina inicial:...Sucess!
+23/01/2019 08:15:18 PM ...Step:   When:Clicar no icone da pagina de projetos:...Sucess!
+23/01/2019 08:15:18 PM ...Step:   Then:A pagina de projeto abre:...Sucess!
+23/01/2019 08:15:21 PM ...Scenario:Navegacao para a pagina de projetos, after:...Sucess!

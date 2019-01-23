@@ -5,7 +5,7 @@
       "keyword": "Scenario",
       "location": "features/Navegacao.feature:3",
       "name": "Navegacao para a pagina de projetos",
-      "status": "failed",
+      "status": "passed",
       "steps": [
         {
           "keyword": "Given",
@@ -16,7 +16,7 @@
           },
           "name": "Acessar pagina inicial",
           "result": {
-            "duration": 0.0,
+            "duration": 0.000997781753540039,
             "status": "passed"
           },
           "step_type": "given"
@@ -30,29 +30,23 @@
           },
           "name": "Clicar no icone da pagina de projetos",
           "result": {
-            "duration": 27.67307710647583,
-            "error_message": [
-              "Traceback (most recent call last):",
-              "  File \"C:\\Users\\bhenriquea\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\Pyautomators\\BDT\\model.py\", line 1329, in run",
-              "    match.run(runner.context)",
-              "  File \"C:\\Users\\bhenriquea\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\Pyautomators\\BDT\\matchers.py\", line 98, in run",
-              "    self.func(context, *args, **kwargs)",
-              "  File \"steps\\NavegacaoSteps.py\", line 8, in step_impl",
-              "    context.homePage.clicar_item_menu()",
-              "  File \"C:\\Users\\bhenriquea\\poc_itau\\pages\\pages\\HomePage.py\", line 6, in clicar_item_menu",
-              "    self.app.elemento_list('PROJECTS', 'name', 0).click()",
-              "  File \"C:\\Users\\bhenriquea\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\Pyautomators\\desk.py\", line 149, in elemento_list",
-              "    element=elements[indice_lista]",
-              "IndexError: list index out of range"
-            ],
-            "status": "failed"
+            "duration": 291.5375409126282,
+            "status": "passed"
           },
           "step_type": "when"
         },
         {
           "keyword": "Then",
           "location": "features/Navegacao.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "steps/NavegacaoSteps.py:11"
+          },
           "name": "A pagina de projeto abre",
+          "result": {
+            "duration": 0.0010004043579101562,
+            "status": "passed"
+          },
           "step_type": "then"
         }
       ],
@@ -63,7 +57,7 @@
   "keyword": "Feature",
   "location": "features/Navegacao.feature:2",
   "name": "Navegacao entre paginas",
-  "status": "failed",
+  "status": "passed",
   "tags": [
     "desktop"
   ]

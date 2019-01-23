@@ -1,0 +1,10 @@
+@given('Acessar pagina inicial')          # steps/NavegacaoSteps.py:1
+  Given Acessar pagina inicial            # features/Navegacao.feature:4
+
+@when('Clicar no icone da pagina de projetos')  # steps/NavegacaoSteps.py:6
+  When Clicar no icone da pagina de projetos    # features/Navegacao.feature:5
+
+@then('A pagina de projeto abre')         # steps/NavegacaoSteps.py:11
+  Then A pagina de projeto abre           # features/Navegacao.feature:6
+
+
